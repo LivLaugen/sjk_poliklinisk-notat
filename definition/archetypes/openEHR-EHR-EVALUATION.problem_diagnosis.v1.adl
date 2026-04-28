@@ -1,26 +1,25 @@
-archetype (adl_version=1.4; uid=cc3a20b3-8928-4c2a-babd-fe9e28987be7)
+﻿archetype (adl_version=1.4; uid=cc3a20b3-8928-4c2a-babd-fe9e28987be7)
 	openEHR-EHR-EVALUATION.problem_diagnosis.v1
 
 concept
-	[at0000]
-
+	[at0000]	-- Problem/Diagnosis
 language
 	original_language = <[ISO_639-1::en]>
 	translations = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
 			author = <
-				["name"] = <"Aljoscha Kindermann, Jasmin Buck, Sebastian Garde, Natalia Strauch, Alina Rehberg">
-				["organisation"] = <"Universityhospital of Heidelberg, University of Heidelberg, Central Queensland University, Medizinische Hochschule Hannover">
+				["name"] = <"Aljoscha Kindermann, Jasmin Buck, Sebastian Garde, Natalia Strauch, Alina Rehberg, Katharina Ginter, Annika Merkt">
+				["organisation"] = <"Universityhospital of Heidelberg, University of Heidelberg, Central Queensland University, Medizinische Hochschule Hannover, vitagroup AG">
 				["email"] = <"Strauch.Natalia@mh-hannover.de, rehberg.alina@mh-hannover.de">
 			>
 		>
 		["sv"] = <
 			language = <[ISO_639-1::sv]>
 			author = <
-				["name"] = <"Kirsi Poikela, Jörgen Kuylenstierna, Anette Larsson, Åsa Skagerhult, Per Nemirovski">
-				["organisation"] = <"Tietoevry Sweden AB, eWeave AB, Region Östergötland, Region Uppsala">
-				["email"] = <"ext.kirsi.poikela@tieto.com, jorgen.kuylenstierna@solvikshalsan.se, anette.a.larsson@tietoevry.com, asa.skagerhult@regionostergotland.se, per.pertoft.nemirovski@regionuppsala.se">
+				["name"] = <"Kirsi Poikela, Jörgen Kuylenstierna, Anette Larsson, Åsa Skagerhult, Per Nemirovski, Manna Vosta">
+				["organisation"] = <"Tietoevry Sweden AB, eWeave AB, Region Östergötland, Region Uppsala, Karolinska University Hospital">
+				["email"] = <"ext.kirsi.poikela@tieto.com, jorgen.kuylenstierna@solvikshalsan.se, anette.a.larsson@tietoevry.com, asa.skagerhult@regionostergotland.se, per.pertoft.nemirovski@regionuppsala.se, manna.vosta@regionstockholm.se">
 			>
 		>
 		["fi"] = <
@@ -98,8 +97,8 @@ language
 			language = <[ISO_639-1::nb]>
 			author = <
 				["name"] = <"Silje Ljosland Bakke, John Tore Valand, Liv Laugen, Vebjørn Arntzen">
-				["organisation"] = <"Helse Bergen HF, ​Oslo University Hospital, Norway, Helse Vest IKT">
-				["email"] = <"liv.laugen@ous-hf.no, varntzen@ous-hf.no, john.tore.valand@helse-vest-ikt.no">
+				["organisation"] = <"Helse Bergen HF, ​Oslo University Hospital, Norway">
+				["email"] = <"liv.laugen@ous-hf.no, varntzen@ous-hf.no">
 			>
 		>
 		["nl"] = <
@@ -123,24 +122,19 @@ language
 			>
 		>
 	>
-
 description
 	original_author = <
-		["date"] = <"2006-04-23">
 		["name"] = <"Sam Heard">
 		["organisation"] = <"Ocean Informatics">
 		["email"] = <"sam.heard@oceaninformatics.com">
+		["date"] = <"2006-04-23">
 	>
-	lifecycle_state = <"in_development">
-	other_contributors = <"Grethe Almenning, Bergen kommune, Norway","Tomas Alme, DIPS, Norway","Nadim Anani, Karolinska Institutet, Sweden","Erling Are Hole, Helse Bergen, Norway","Vebjørn Arntzen, Oslo universitetssykehus HF, Norway (Nasjonal IKT redaktør)","Koray Atalag, GALATA-Digital, New Zealand","Silje Ljosland Bakke, Helse Vest IKT AS, Norway (openEHR Editor)","John Bennett, NEHTA, Australia","Steve Bentley, Allscripts, United Kingdom","Lars Bitsch-Larsen, Haukeland University hospital, Norway","Terje Bless, Helse Nord FIKS, Norway","Fredrik Borchsenius, Oslo universitetssykehus, Norway","Ian Bull, ACT Health, Australia","Sergio Carmona, Chile","Rong Chen, Cambio Healthcare Systems, Sweden","Stephen Chu, Queensland Health, Australia","Ed Conley, Cardiff University, United Kingdom","Matthew Cordell, NEHTA, Australia","Inderjit Daphu, Helse Bergen, Norway","Paul Donaldson, Nursing Informatics Australia, Australia","Gail Easterbrook, Flinders Medical Centre, Australia","Aitor Eguzkitza, UPNA (Public University of Navarre) - CHN (Complejo Hospitalario de Navarra), Spain","Tone Engen, Norway","David Evans, Queensland Health, Australia","Arild Faxvaag, NTNU, Norway","Shahla Foozonkhah, Iran ministry of health and education, Iran","Einar Fosse, National Centre for Integrated Care and Telemedicine, Norway","Peter Garcia-Webb, Australia","Sebastian Garde, Ocean Informatics, Germany","Bente Gjelsvik, Helse Bergen, Norway","Andrew Goodchild, NEHTA, Australia","Anneke Goossen, Results 4 Care, Netherlands","Gyri Gradek, Senter for medisinsk genetikk og molekylærmedisin, Haukeland Universitetssykehus, Norway","Heather Grain, Llewelyn Grain Informatics, Australia","Trina Gregory, cpc, Australia","Bjørn Grøva, Diretoratet for e-helse, Norway","Dag Hanoa, Oslo universitetssykehus, Norway","Knut Harboe, Stavanger Universitetssjukehus, Norway","Sam Heard, Ocean Informatics, Australia","Ingrid Heitmann, Oslo universitetssykehus HF, Norway","Kristian Heldal, Telemark Hospital Trust, Norway","Andreas Hering, Helse Bergen HF, Haukeland universitetssjukehus, Norway","Anca Heyd, DIPS ASA, Norway","Hilde Hollås, DIPS AS, Norway","Evelyn Hovenga, EJSH Consulting, Australia","Eugene Igras, IRIS Systems, Inc., Canada","Lars Ivar Mehlum, Helse Bergen HF, Norway","Tom Jarl Jakobsen, Helse Bergen, Norway","Aud Jorunn Mjelstad, Helse Bergen, Norway","Gunnar Jårvik, Nasjonal IKT HF, Norway","Lars Morgan Karlsen, DIPS ASA, Norway","Mary Kelaher, NEHTA, Australia","Eizen Kimura, Ehime Univ., Japan","Shinji Kobayashi, NPO openEHR Japan, Japan","Robert L'egan, NEHTA, Australia","Sabine Leh, Haukeland University Hospital, Department of Pathology, Norway","Heather Leslie, Atomica Informatics, Australia (openEHR Editor)","Hugh Leslie, Ocean Informatics, Australia (Editor)","Hallvard Lærum, Norwegian Directorate of e-health, Norway","Luis Marco Ruiz, NST, Spain","Siv Marie Lien, DIPS ASA, Norway","Rohan Martin, Ambulance Victoria, Australia","David McKillop, NEHTA, Australia","Ian McNicoll, freshEHR Clinical Informatics, United Kingdom","Chris Mitchell, RACGP, Australia","Stewart Morrison, NEHTA, Australia","Jörg Niggemann, compugroup, Germany","Bjørn Næss, DIPS AS, Norway","Mona Oppedal, Helse Bergen, Norway","Andrej Orel, Marand d.o.o., Slovenia","Anne Pauline Anderssen, Helse Nord RHF, Norway","Chris Pearce, Melbourne East GP Network, Australia","Camilla Preeston, Royal Australian College of General Practitioners, Australia","Margaret Prichard, NEHTA, Australia","Jodie Pycroft, Adelaide Northern Division of General Practice Ltd, Australia","Cathy Richardson, NEHTA, Australia","Robyn Richards, NEHTA - Clinical Terminology, Australia","Jussara Rotzsch, Hospital Alemão Oswaldo Cruz, Brazil","Thomas Schopf, University Hospital of North-Norway, Norway","Thilo Schuler, Australia","Anoop Shah, University College London, United Kingdom","Arild Stangeland, Helse Bergen, Norway","Line Sæle, Nasjonal IKT HF, Norway","Line Sørensen, Helse Bergen, Norway","Gordon Tomes, Australian Institute of Health and Welfare, Australia","Richard Townley-O'Neill, NEHTA, Australia","Donna Truran, ACCTI-UoW, Australia","Jon Tysdahl, Furst medlab AS, Norway","John Tore Valand, Helse Vest IKT, Norway (openEHR Editor)","Kylie Young, The Royal Australian College of General Practitioners, Australia">
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
 			purpose = <"Zur Darstellung von Details über ein einzelnes identifiziertes gesundheitliches Problem oder eine Diagnose.
 
 Der angestrebte Anwendungsbereich eines gesundheitlichen Problems wurde im Rahmen der medizinischen Dokumentation bewusst breit gehalten, um die reale und wahrgenommene Beeinträchtigungen, die auf das Wohlbefinden eines Individuums nachteilig auswirken könnten, zu erfassen. Ein gesundheitliches Problem kann durch das Individuum selber, durch einen Betreuer oder eine medizinische Fachkraft festgestellt werden. Im Gegensatz dazu wird eine Diagnose zusätzlich durch objektive klinische Kriterien definiert und wird normalerweise nur durch eine medizinische Fachkraft festgestellt.">
-			keywords = <"Sachverhalt","Beschwerde","Problem","Diagnose","Befinden","Verletzung","Klinisches Bild">
-			copyright = <"© openEHR Foundation">
 			use = <"Zur Dokumentation eines einzelnen identifizierten gesundheitlichen Problems bzw. einer Diagnose.
 
 Klare Definitionen, welche eine eindeutige Abgrenzung zwischen einem 'Problem' und einer 'Diagnose' zulassen würden, sind in der praktischen Anwendung nahezu unmöglich - wir können nicht verlässlich festlegen, wann ein Problem als Diagnose angesehen werden sollte. Wenn Diagnose- oder Klassifizierungskriterien zutreffen, können wir einen Gesundheitszustand mit Bestimmtheit als Diagnose bezeichnen. Jedoch kann, auch wenn diese Kriterien noch nicht zutreffen, die Bezeichnung 'Diagnose' zutreffend sein. Die Menge an unterstützenden Hinweisen, die für die Bezeichnung 'Diagnose' notwendig ist, ist nicht einfach festzulegen und variiert in Wirklichkeit wohl abhängig vom Gesundheitszustand. Viele Normungsgremien haben sich mit dieser Definitionsproblematik seit Jahren befasst, ohne zu einem eindeutigen Ergebnis zu kommen.
@@ -154,6 +148,7 @@ In der Praxis verwenden Kliniker viele kontextspezifische Merkmale wie Vergangen
 Dieser Archetyp wird als Komponente im Sinne des von Larry Weed beschriebenen 'Problem Oriented Medical Record' verwendet. Zusätzliche Archetypen, die klinische Konzepte wie z.B. die Erkrankung als übergreifender Organisator für Diagnosen usw. repräsentieren, müssen entwickelt werden, um diesen Ansatz zu unterstützen.
 
 In einigen Situationen könnte angenommen werden, dass die Identifizierung einer Diagnose nur innerhalb der Expertise von Ärzten liegt, aber das ist nicht die Absicht dieses Archetyps. Diagnosen können mit diesem Archetyp von jedem Angehörigen der Gesundheitsberufe erfasst werden.">
+			keywords = <"Sachverhalt", "Beschwerde", "Problem", "Diagnose", "Befinden", "Verletzung", "Klinisches Bild">
 			misuse = <"Nicht zur Dokumentation von Symptomen, welche vom Individuum beschrieben werden. Verwenden Sie den Archetyp CLUSTER.symptom, normalerweise innerhalb des OBSERVATION.story Archetyps.
 
 Nicht zur Dokumentation von Untersuchungsergebnissen. Verwenden Sie untersuchungsbezogene CLUSTER Archetypen, normalerweise verschachtelt innerhalb des OBSERVATION.exam Archetyps.
@@ -175,13 +170,13 @@ Nicht zur Dokumentation von Aussagen über Gesundheitsrisiken oder potentielle G
 Nicht zur Dokumentation von Aussagen über Nebenwirkungen, Allergien oder Intoleranzen. Verwenden Sie den Archetyp EVALUATION.adverse_reaction.
 
 Nicht zur Dokumentation einer expliziten Abwesenheit oder Nicht-Anwesenheit eines Problems oder einer Diagnose, wie zum Beispiel 'Kein bekanntes Problem bzw. Diagnose' oder 'Kein Diabetes festgestellt'. Verwenden Sie den Archetyp EVALUATION.exclusion-problem_diagnosis um eine postitive Aussage über den Ausschluss eines Problems oder einer Diagnose zu treffen.">
+			copyright = <"© openEHR Foundation">
 		>
 		["fi"] = <
 			language = <[ISO_639-1::fi]>
 			purpose = <"*For recording details about a single, identified health problem or diagnosis. 
 
 The intended scope of a health problem is deliberately kept loose in the context of clinical documentation, so as to capture any real or perceived concerns that may adversely affect an individual's wellbeing to any degree. A health problem may be identified by the individual, a carer or a healthcare professional. However, a diagnosis is additionally defined based on objective clinical criteria, and usually determined only by a healthcare professional.(en)">
-			keywords = <"*issue(en)","*condition(en)","*problem(en)","*diagnosis(en)","*concern(en)","*injury(en)","*clinical impression(en)">
 			use = <"*Use for recording details about a single, identified health problem or diagnosis. 
 
 Clear definitions that enable differentiation between a 'problem' and a 'diagnosis' are almost impossible in practice - we cannot reliably tell when a problem should be regarded as a diagnosis. When diagnostic or classification criteria are successfully met, then we can confidently call the condition a formal diagnosis, but prior to these conditions being met and while there is supportive evidence available, it can also be valid to use the term 'diagnosis'. The amount of supportive evidence required for the label of diagnosis is not easy to define and in reality probably varies from condition to condition. Many standards committees have grappled with this definitional conundrum for years without clear resolution.
@@ -195,6 +190,7 @@ In practice, clinicians use many context-specific qualifiers such as past/presen
 This archetype will be used as a component within the Problem Oriented Medical Record as described by Larry Weed. Additional archetypes, representing clinical concepts such as condition as an overarching organiser for diagnoses etc, will need to be developed to support this approach.
 
 In some situations, it may be assumed that identification of a diagnosis fits only within the expertise of physicians, but this is not the intent for this archetype. Diagnoses can be recorded using this archetype by any healthcare professional.(en)">
+			keywords = <"*issue(en)", "*condition(en)", "*problem(en)", "*diagnosis(en)", "*concern(en)", "*injury(en)", "*clinical impression(en)">
 			misuse = <"*Not to be used to record symptoms as described by the individual - use the CLUSTER.symptom archetype, usually within the OBSERVATION.story archetype.
 
 Not to be used to record examination findings - use the family of examination-related CLUSTER archetypes, usually nested within the OBSERVATION.exam archetype.
@@ -221,23 +217,23 @@ Not to be used for the explicit recording of an absence (or negative presence) o
 			language = <[ISO_639-1::sv]>
 			purpose = <"Att dokumentera detaljer om hälsoproblem eller diagnoser.
 
-Hälsoproblem har en bred betydelse för att fånga alla objektiva eller upplevda hälsobesvär som i någon omfattning kan påverka en individs välbefinnande negativt. Ett hälsoproblem kan identifieras av individen, en anhörig vårdare eller hälso- och sjukvårdspersonal. En diagnos definieras däremot endast baserat på objektiva kliniska kriterier, och kan vanligen endast fastställas av hälso- och sjukvårdspersonal.
+Hälsoproblem har en bred betydelse för att fånga alla objektiva eller upplevda hälsobesvär som i någon omfattning kan påverka en individs välbefinnande negativt. Ett hälsoproblem kan identifieras av individen, en anhörigvårdare eller hälso- och sjukvårdspersonal. En diagnos definieras däremot endast baserat på objektiva kliniska kriterier, och kan vanligen endast fastställas av hälso- och sjukvårdspersonal.
 ">
-			keywords = <"bekymmer","tillstånd","problem","diagnos","oro","skada","klinisk tolkning">
 			use = <"Används för att dokumentera detaljer om ett identifierat hälsoproblem eller en diagnos. 
 
-I praktiken ligger ”problem” och ”diagnos” på ett spektrum – tydliga gränser är sällan möjliga, och samma dataelement i arketypen stöder båda. Med hjälp av klusterarketyper kan ytterligare information om hälsoproblemet eller diagnosen lagras allteftersom den blir tillgänglig. Typiska användningsområden är att dokumentera problem under ett vårdbesök, upprätthålla en problemlista eller sammanfatta tillstånd vid utskrivning.
+I praktiken ligger ”problem” och ”diagnos” på ett spektrum – tydliga gränser är sällan möjliga, och samma datafält i arketypen stöder båda. Med hjälp av CLUSTER-arketyper kan ytterligare information om hälsoproblemet eller diagnosen lagras allteftersom den blir tillgänglig. Typiska användningsområden är att dokumentera problem under ett vårdbesök, upprätthålla en problemlista eller sammanfatta tillstånd vid utskrivning.
 
-Statusmarkörer (exempelvis tidigare eller nuvarande, primär eller sekundär, aktiv eller inaktiv, inläggning eller utskrivning) ska modelleras separat i fältet Status. Deras innebörd är kontextberoende och kan variera mellan sammanhang och vårdspecialitet så de måste konfigureras manuellt för att förbli kliniskt korrekta, dvs tillämpas lokalt.
+Statusmarkörer (exempelvis tidigare eller nuvarande, primär eller sekundär, aktiv eller inaktiv, inläggning eller utskrivning) ska modelleras separat i SLOT för Status. Deras innebörd är kontextberoende och kan variera mellan sammanhang och vårdspecialitet så de måste konfigureras manuellt för att förbli kliniskt korrekta, dvs tillämpas lokalt.
 
 Registreringen är inte begränsad till läkare – all hälso- och sjukvårdspersonal kan registrera diagnos eller hälsoproblem.
 
 Arketypen passar in i Larry Weeds problemorienterade journal (POMR); ytterligare organiserande arketyper kan behövas.">
+			keywords = <"bekymmer", "tillstånd", "problem", "diagnos", "oro", "skada", "klinisk tolkning">
 			misuse = <"Ska inte användas för att dokumentera symtom som beskrivs av individen. Använd istället arketypen OBSERVATION.story med extension CLUSTER.symptom_sign.
 
 Ska inte användas för att dokumentera undersökningsfynd. Använd istället någon OBSERVATION-arketyp med en undersökningsrelaterad CLUSTER-arketyp som extension.
 
-Ska inte användas för att dokumentera testresultat från laboratoriet eller för relaterade diagnoser, exempelvis patologiska diagnoser. Använd istället en laboratorierelaterad OBSERVATION-arketyp.
+Ska inte användas för att dokumentera laboratorieresultat eller för relaterade diagnoser, exempelvis patologiska diagnoser. Använd istället en laboratorierelaterad OBSERVATION-arketyp.
 
 Ska inte användas för att dokumentera undersökningsfynd från bildmedia eller genom bilddiagnostik. Använd istället en bildmediarelaterad OBSERVATION-arketyp.
 
@@ -260,7 +256,6 @@ Ska inte användas för att registrera frånvaro (eller negativ närvaro) av ett
 			purpose = <"단일한 확인된 건강 문제 또는 진단에 대한 상세내역을 기록하기 위함.
 
 의도된 건강 문제의 범위는 어느 정도로 개인의 웰빙에 좋지않은 방향으로 영향을 주는 모든 실제 또는 인지된 걱정(concern)를 획득하기 위해 궁극적으로 임상 문서의 문맥에서 느슨하게 유지됨. 건강 문제는 해당 개인, 또는 보호자, 헬스케어 전문가에 의해 확인될 수도 있음. 그러나 진단은 객관적인 임상적 기준에 근거하여 추가적으로 정의되며, 일반적으로 헬스케어 전문가들에 의해서만 결정됨.">
-			keywords = <"이슈","상태","진단","걱정","상해","임상소견">
 			use = <"단일한 확인된 건강 문제 또는 진단에 대한 상세내역을 기록하기 위함.
 
 '문제(problem)'와 '진단(diagnosis)' 간의 차이를 구분할 수 있는 명확한 정의는 실무에서 거의 불가능함 - 우리는 문제가 언제 진단으로 간주되어야 하는지를 신뢰성있게 구별할 수 없음. 진단 또는 분류 기준이 성공적으로 만족될 때, 우리는 상태(condition)를 정규적인 진단으로 확실하게 말할 수 있지만, 이런 상태를 만족하기 이전에, 지지할 수 있는 증거를 이용가능하다면 '진단'이라는 용어를 또한 사용하는 것이 유효할 수 있음. 진단이라는 표시를 위해 필요한 지지할 수 있는 증거의 양은 정의하기 쉽지 않고 실제로 상태에 따라 다양할 수 있음. 많은 표준 기구는 수 년 동안 명확한 해결책없이 이러한 정의적인 문제로 가득 차 있음. 
@@ -274,6 +269,7 @@ Ska inte användas för att registrera frånvaro (eller negativ närvaro) av ett
 이 아키타입은 Larry Weed가 기술한 문제지향의무기록(Problem Oriented Medical Record) 내에서 컴포넌트로 사용될 것임. 상태와 같은 임상 개념을 진단을 위한 포괄적인 구성자(organizer)로 표현하는 추가적인 아키타입은 이러한 접근방식을 지원하기 위해 개발될 필요가 있을 것임.
 
 몇몇 상황에서, 진단의 확인은 임상의의 전문성 안에서만 적용한다는 가정이 될 수 있지만 이것은 이 아카타입이 의도하는 바는 아님. 모든 헬스케어 전문가가 이 아키타입을 이용해 진단을 기록할 수 있음.">
+			keywords = <"이슈", "상태", "진단", "걱정", "상해", "임상소견">
 			misuse = <"개인에 의해 기술된 증상을 기록하는데 사용하지 않아야 함 - 보통 OBSERVATION.story archetype 내에서 CLUSTER.symptom archetype을 사용해야 함.
 
 검사 소견을 기록하는데 사용하지 않아야 함 - 보통 OBSERVATION.exam archetype 내에 중첩되어, examination-related CLUSTER archetypes 계열을 사용해야 함.
@@ -301,8 +297,6 @@ Ska inte användas för att registrera frånvaro (eller negativ närvaro) av ett
 			purpose = <"Para gravar detalhes sobre um único problema de saúde ou diagnóstico identificado.
 
 O escopo pretendido de um problema de saúde é deliberadamente mantido livre no contexto da documentação clínica, de forma a captar quaisquer preocupações reais ou percebidas que podem afetar adversamente, em qualquer grau, o bem-estar de um indivíduo. Um problema de saúde pode ser identificado pela o indivíduo, um prestador de cuidados ou de um profissional de saúde. No entanto, o diagnóstico é adicionalmente definido com base em critérios clínicos objetivos, e, geralmente, determinado apenas por um profissional de saúde.">
-			keywords = <"caso","condição","problema","diagnóstico","preocupação","prejuízo","impressão clínica">
-			copyright = <"© openEHR Foundation">
 			use = <"Para gravar detalhes sobre um único problema de saúde ou diagnóstico identificado.
 
 Definições claras que permitem a diferenciação entre um \"problema\" e um \"diagnóstico\" são quase impossíveis na prática - não podemos dizer de forma segura quando um problema deve ser considerado como um diagnóstico. Quando o diagnóstico ou os critérios de classificação são cumpridos com sucesso, então com confiança podemos chamar a condição de um diagnóstico formal, mas antes que essas condições sejam cumpridas e enquanto houver evidências para tanto, também pode ser válido usar o termo \"diagnóstico\". A quantidade de evidências de apoio requerida para a indicação de diagnóstico não é fácil de ser definida e na realidade, provavelmente varia de condição para condição. Muitos comitês de padrões têm, por anos, se confrontado com esse dilema de definição sem resolução clara. 
@@ -314,6 +308,7 @@ Na prática, os clínicos usam muitos qualificadores de contexto específico, co
 Este arquétipo será usado como um componente dentro do Registro Clínico Orientado à Problemas, tal como descrito por Larry Weed. Arquétipos adicionais, que representam conceitos clínicos, tais como: condição como um organizador abrangente para diagnósticos etc, terão de ser desenvolvidos para apoiar esta abordagem.
 
 Em algumas situações, pode ser assumido que a identificação de um diagnóstico só se encaixa dentro da expertise do médico, mas esta não é a intenção para este arquétipo. Os diagnósticos podem ser gravados utilizando esse arquétipo por qualquer profissional de saúde.">
+			keywords = <"caso", "condição", "problema", "diagnóstico", "preocupação", "prejuízo", "impressão clínica">
 			misuse = <"Não deve ser usado para registrar os sintomas descritos pelo indivíduo, para isso, use o arquétipo CLUSTER.symptom, geralmente dentro do arquétipo OBSERVATION.story.
 
 Não deve ser usado para registrar achados do exame, use o CLUSTER da família de arquétipos relacionadas ao exame, geralmente aninhados dentro do arquétipo OBSERVATION.exam.
@@ -335,14 +330,13 @@ Não deve ser usado para gravar o estadiamento sobre o risco ou os problemas de 
 Não deve ser usado para gravar declarações sobre reações adversas, alergias ou intolerâncias, use o arquétipo EVALUATION.adverse_reaction.
 
 Não deve ser usado para a gravação de uma ausência explícita (ou presença negativa) de um problema ou diagnóstico, por exemplo: \"sem problema ou diagnósticos conhecido\" ou \"diabetes não conhecido\". Use o arquétipo EVALUATION.exclusion-problem_diagnosis para expressar uma declaração positiva sobre a exclusão de um problema ou diagnóstico.">
+			copyright = <"© openEHR Foundation">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"For recording details about a single, identified health problem or diagnosis. 
 
 The intended scope of a health problem is deliberately kept loose in the context of clinical documentation, so as to capture any real or perceived concerns that may adversely affect an individual's wellbeing to any degree. A health problem may be identified by the individual, a carer or a healthcare professional. However, a diagnosis is additionally defined based on objective clinical criteria, and usually determined only by a healthcare professional.">
-			keywords = <"issue","condition","problem","diagnosis","concern","injury","clinical impression">
-			copyright = <"© openEHR Foundation">
 			use = <"Use for recording details about a single, identified health problem or diagnosis. 
 
 Clear definitions that enable differentiation between a 'problem' and a 'diagnosis' are almost impossible in practice - we cannot reliably tell when a problem should be regarded as a diagnosis. When diagnostic or classification criteria are successfully met, then we can confidently call the condition a formal diagnosis, but prior to these conditions being met and while there is supportive evidence available, it can also be valid to use the term 'diagnosis'. The amount of supportive evidence required for the label of diagnosis is not easy to define and in reality probably varies from condition to condition. Many standards committees have grappled with this definitional conundrum for years without clear resolution.
@@ -356,6 +350,7 @@ In practice, clinicians use many context-specific qualifiers such as past/presen
 This archetype will be used as a component within the Problem Oriented Medical Record as described by Larry Weed. Additional archetypes, representing clinical concepts such as condition as an overarching organiser for diagnoses etc, will need to be developed to support this approach.
 
 In some situations, it may be assumed that identification of a diagnosis fits only within the expertise of physicians, but this is not the intent for this archetype. Diagnoses can be recorded using this archetype by any healthcare professional.">
+			keywords = <"issue", "condition", "problem", "diagnosis", "concern", "injury", "clinical impression">
 			misuse = <"Not to be used to record symptoms as described by the individual - use the CLUSTER.symptom archetype, usually within the OBSERVATION.story archetype.
 
 Not to be used to record examination findings - use the family of examination-related CLUSTER archetypes, usually nested within the OBSERVATION.exam archetype.
@@ -377,12 +372,11 @@ Not to be used to record statements about health risk or potential problems - us
 Not to be used to record statements about adverse reactions, allergies or intolerances - use the EVALUATION.adverse_reaction archetype.
 
 Not to be used for the explicit recording of an absence (or negative presence) of a problem or diagnosis, for example ‘No known problem or diagnoses’ or ‘No known diabetes’. Use the EVALUATION.exclusion-problem_diagnosis archetype to express a positive statement about exclusion of a problem or diagnosis.">
+			copyright = <"© openEHR Foundation">
 		>
 		["ar-sy"] = <
 			language = <[ISO_639-1::ar-sy]>
 			purpose = <"لتسجيل تفاصيل حول قضية أو عقبة تؤثر على السلامة البدنية, العقلية و/أو الاجتماعية لشخص ما">
-			keywords = <"القضية","الظرف الصحي","المشكلة","العقبة">
-			copyright = <"© openEHR Foundation">
 			use = <"يستخدم لتسجيل المعلومات العامة حول المشكلات المتعلقة بالصحة.
 يحتوي النموذج على معلومات متعددة,و يمكن استخدامه في تسجيل المشكلات الحاضرة و السابقة.
 و يمكن تحديد المشكلة بواسطة المريض نفسه أو من يقوم بتقديم الرعاية الصحية.
@@ -391,14 +385,15 @@ Not to be used for the explicit recording of an absence (or negative presence) o
 - الرغبة لفقد الوزن دون تشخيص مؤكد بالسمنة
 - الرغبة بالإقلاع عن التدخين بواسطة الشخص
 - مشكلة في العلاقة مع أحد أفراد العائلة">
+			keywords = <"القضية", "الظرف الصحي", "المشكلة", "العقبة">
 			misuse = <"لا يستخدم لتسجيل التشخيصات المؤكدة. استخدم بدلا من ذلك النموذج المخصص من هذا النموذج, تقييم.المشكلة - التشخيص">
+			copyright = <"© openEHR Foundation">
 		>
 		["it"] = <
 			language = <[ISO_639-1::it]>
 			purpose = <"Registrare i dettagli di un singolo problema di salute identificato o di una diagnosi. 
 
 L'ambito previsto di un problema di salute viene deliberatamente lasciato libero nel contesto della documentazione clinica, in modo da catturare qualsiasi preoccupazione reale o percepita che possa influire negativamente sul benessere di un individuo in qualsiasi misura. Un problema di salute può essere identificato dall'individuo, da un caregiver o da un operatore sanitario. Tuttavia, una diagnosi viene definita in aggiunta sulla base di criteri clinici oggettivi e solitamente determinata solo da un professionista sanitario.">
-			keywords = <"problema, condizione, diagnosi, preoccupazione, lesione, impressione clinica", ...>
 			use = <"Usato per registrare i dettagli di un singolo problema di salute identificato o di una diagnosi. 
 
 Definizioni chiare che consentono di distinguere tra un \"problema\" e una \"diagnosi\" sono quasi impossibili nella pratica - non possiamo dire in modo affidabile quando un problema deve essere considerato una diagnosi. Quando i criteri diagnostici o di classificazione sono soddisfatti con successo, allora possiamo tranquillamente definire la condizione come una diagnosi formale, ma prima che queste condizioni siano soddisfatte e mentre ci sono prove di supporto disponibili, può anche essere valido l'uso del termine \"diagnosi\". La quantità delle prove di supporto richieste per la classificazione della diagnosi non è facile da definire e in realtà probabilmente varia da una condizione all'altra. Molti comitati di standardizzazione si sono trovati alle prese con questo enigma di definizione per anni senza una chiara risoluzione.
@@ -412,6 +407,7 @@ In pratica, i clinici usano molte qualificazioni specifiche del contesto, come p
 Questo archetipo sarà utilizzato come componente all'interno della cartella clinica orientata ai problemi, come descritto da Larry Weed. Ulteriori archetipi - che rappresentano concetti clinici come la condizione come un organizzatore generale per le diagnosi, ecc. - dovrà essere sviluppato per sostenere questo approccio.
 
 In alcune situazioni, si può presumere che l'identificazione di una diagnosi rientri solo nelle competenze dei medici, ma questo non è l'intento di questo archetipo. Le diagnosi possono essere registrate utilizzando questo archetipo da qualsiasi professionista sanitario.">
+			keywords = <"problema, condizione, diagnosi, preoccupazione, lesione, impressione clinica", ...>
 			misuse = <"Da non utilizzare per registrare i sintomi come descritto dall'individuo - utilizzare l'archetipo di CLUSTER.symptom, di solito all'interno dell'archetipo di OBSERVATION.story.
 
 Da non utilizzare per registrare i risultati dell'esame - utilizzare la famiglia di archetipi CLUSTER.symptom, di solito annidati all'interno dell'archetipo di OBSERVATION.exam.
@@ -439,7 +435,6 @@ Da non utilizzare per la registrazione esplicita di un'assenza (o presenza negat
 			purpose = <"旨在用于记录关于单个已明确的健康问题或诊断的详情。
 
 在临床文档记录的背景下，健康问题故意保持了宽松的预定适用范围，以便采集任何可能对个人健康产生任何程度不利影响的真实或所感知到的担忧/关注事项（concern）。健康问题可能是由个人（患者本人）、[非正规]照护人员或医疗保健专业人员来确定。然而，诊断则另外还依据客观的临床评判标准进行了定义，且通常仅仅是由医疗保健专业人员来确定。">
-			keywords = <"事宜","事项","情况","健康状况","病情","问题","诊断","关注事项","担心事项","担忧","损伤","临床印象">
 			use = <"旨在用于记录关于单个已明确的健康问题或诊断的详情。
 
 在实践当中，几乎不可能做出明确的定义来区分“问题”（problem）与“诊断”（diagnosis）——我们无法可靠地判断究竟何时才应该将问题视为诊断。当诊断或分类标准得以成功满足时，我们可以自信地将相应的情况/病情（condition）称为正式的诊断，但在满足此类的评判标准/条件之前，且存在可用的支持性证据之时，也可以有效合理地采用“诊断”一词。诊断标签所需支持性证据的数量并不容易定义，实际上很可能还会因情况而异。多年来，许多标准委员会一直在努力解决这个定义难题，但目前还没有明确的解决办法。
@@ -453,6 +448,7 @@ Da non utilizzare per la registrazione esplicita di un'assenza (o presenza negat
 正如拉里·维德（Larry Weed）所描述的那样，在面向问题的病历（Problem Oriented Medical Record）当中，本原始型将会作为一种组件来使用。为了支持这种方法，需要开发其他原始型，以便将情况/健康状况/病情（condition）之类的临床概念表示为诊断的总体组织手段等。
 
 在某些情况下，可能会假定认为诊断的确定仅仅属于是医生的专长，但这一点并不是本原始型的意图。任何的医疗保健专业人员都可以利用本原始型来记录诊断。">
+			keywords = <"事宜", "事项", "情况", "健康状况", "病情", "问题", "诊断", "关注事项", "担心事项", "担忧", "损伤", "临床印象">
 			misuse = <"并非旨在用于记录个人（患者本人）所描述的症状 - 对此，请采用群簇型症状原始型 CLUSTER.symptom 来记录，且通常会将后者放在观察型主观临床病史原始型 OBSERVATION.story 之中。
 
 并非旨在用于记录检查发现/所见 - 对此，请采用与检查相关的群簇型原始型系列，且通常会将后者嵌套在观察型检查原始型 OBSERVATION.exam 当中。
@@ -482,8 +478,6 @@ Da non utilizzare per la registrazione esplicita di un'assenza (o presenza negat
 			purpose = <"Este arquetipo se utilizará para registrar un único problema de salud o diagnóstico identificado para el paciente.
 
 El alcance del arquetipo se dejó deliberadamente abierto, para poder capturar cualquier inquietud real o percibida que afecte en cualquier grado la salud de un paciente. Independientemente de quién detecte el problema, el diagnóstico debe ser definido basado en criterios clínicos objetivos, determinados por un profesional clínico.">
-			keywords = <"asunto","condición","problema","diagnóstico","preocupación","lesión","impresión clínica">
-			copyright = <"© openEHR Foundation">
 			use = <"Este arquetipo se utilizará para registrar un único problema de salud o diagnóstico identificado para el paciente.
 
 Las definiciones claras que permitan diferenciar entre un \"problema\" y un \"diagnóstico\" son casi imposibles en la práctica: no podemos decir con certeza cuándo un problema debe considerarse como un diagnóstico. Cuando se cumplen con éxito los criterios de diagnóstico o clasificación, podemos llamar con seguridad a la afección un diagnóstico formal, pero antes de que se cumplan estas condiciones y mientras haya evidencia disponible que lo respalde, también puede ser válido utilizar el término \"diagnóstico\". La cantidad de evidencia que respalda la etiqueta de diagnóstico no es fácil de definir y en realidad probablemente varía de una condición a otra. Muchos comités de normas han lidiado con este enigma de definición durante años sin una resolución clara.
@@ -497,6 +491,7 @@ En la práctica, los médicos utilizan muchos calificadores específicos según 
 Este arquetipo se utilizará como componente dentro del Registro Médico Orientado a Problemas tal como lo describe Larry Weed. Será necesario desarrollar arquetipos adicionales, que representen conceptos clínicos como la condición como organizador general de diagnósticos, etc., para respaldar este enfoque.
 
 En algunas situaciones, se puede suponer que la identificación de un diagnóstico sólo se ajusta a la experiencia de los médicos, pero ésta no es la intención de este arquetipo. Cualquier profesional sanitario puede registrar los diagnósticos utilizando este arquetipo.">
+			keywords = <"asunto", "condición", "problema", "diagnóstico", "preocupación", "lesión", "impresión clínica">
 			misuse = <"No se debe utilizar para registrar síntomas descritos por el paciente; para eso, utilizar el arquetipo CLUSTER.symtom, generalmente dentro del arquetipo OBSERVATION.story.
 
 No se debe utilizar para registrar hallazgos; para eso, utilizar arquetipos CLUSTER relacionados con la examinación, usualmente relacionados con el arquetipo OBSERVATION.exam.
@@ -518,12 +513,15 @@ No se debe utilizar para registrar riesgos o problemas potenciales; para eso, ut
 No se debe utilizar para registrar declaraciones sobre reacciones adversas, alergias o intolerancias; para eso, utilizar el arquetipo EVALUATION.adverse_reaction.
 
 No se debe utilizar para el registro explícito de una ausencia (o presencia negativa) de un problema o diagnóstico, por ejemplo, \"No se conocen problemas o diagnósticos\" o \"No se conoce diabetes\". Utilice el arquetipo EVALUATION.exclusion-problem_diagnosis para expresar una afirmación positiva sobre la exclusión de un problema o diagnóstico.">
+			copyright = <"© openEHR Foundation">
 		>
 		["zh"] = <
 			language = <[ISO_639-1::zh]>
 			purpose = <"For recording details about a single, identified health problem or diagnosis. 
 
 The intended scope of a health problem is deliberately kept loose in the context of clinical documentation, so as to capture any real or perceived concerns that may adversely affect an individual's wellbeing to any degree. A health problem may be identified by the individual, a carer or a healthcare professional. However, a diagnosis is additionally defined based on objective clinical criteria, and usually determined only by a healthcare professional.">
+			use = <"">
+			misuse = <"">
 			other_details = <
 				["notes"] = <"Generated automatically by Adl Designer">
 			>
@@ -533,8 +531,6 @@ The intended scope of a health problem is deliberately kept loose in the context
 			purpose = <"For å registrere detaljer om ett identifisert helseproblem eller en diagnose.
 
 Omfanget for et helseproblem er med vilje løst definert, for å kunne registrere en reell eller selvoppfattet bekymring som i større eller mindre grad kan påvirke et individs velvære negativt. Et helseproblem kan identifiseres av individet selv, en omsorgsperson eller av helsepersonell. En diagnose er derimot definert basert på objektive kliniske kriterier, og stilles som regel bare av helsepersonell.">
-			keywords = <"emne","problem","tilstand","hindring","diagnose","helseproblem","bekymring","funn","helsetilstand","konflikt","utfordring","klinisk bilde">
-			copyright = <"© openEHR Foundation">
 			use = <"Brukes til å registrere detaljer om ett identifisert helseproblem eller en diagnose. 
 
 Å klart definere skillet mellom et \"problem\" og en \"diagnose\" er i praksis nesten umulig, og vi kan ikke på en pålitelig måte si når et problem skal ses på som en diagnose. Når diagnostiske- eller klassifikasjonskriterier er innfridd kan vi trygt kalle tilstanden en formell diagnose, men før disse kriteriene er møtt kan det dersom det finnes støttende funn også være riktig å kalle den en diagnose. Mengden støttende funn som kreves for å sette merkelappen \"diagnose\" er ikke lett å definere, og varierer sannsynligvis i praksis fra tilstand til tilstand. Mange standardiseringskomiteer har arbeidet med dette definisjonsproblemet i årevis uten å komme til noen klar konklusjon.
@@ -548,6 +544,7 @@ I praksis bruker klinikere mange kvalifikatorer som nåværende/tidligere, hoved
 Denne arketypen vil bli brukt som en komponent i den problemorienterte journalen som beskrevet av Larry Weed. Tilleggsarketyper som representerer kliniske konsepter som f.eks. \"tilstand\" som en overbygning for diagnoser etc, vil måtte utvikles for å støtte dette.
 
 I noen situasjoner antas det at å stille en diagnose ligger fullstendig innenfor legers domene, men dette er ikke hensikten med denne arketypen. Diagnoser kan registreres av alt helsepersonell ved hjelp av denne arketypen.">
+			keywords = <"emne", "problem", "tilstand", "hindring", "diagnose", "helseproblem", "bekymring", "funn", "helsetilstand", "konflikt", "utfordring", "klinisk bilde">
 			misuse = <"Brukes ikke til å registrere symptomer slik de beskrives av individet. Til dette brukes CLUSTER.symptom-arketypen, som regel innenfor OBSERVATION.story-arketypen.
 
 Brukes ikke til å registrere funn ved klinisk undersøkelse. Til dette brukes gruppen av undersøkelsesrelaterte CLUSTER-arketyper, som regel innenfor OBSERVATION.exam-arketypen.
@@ -571,13 +568,12 @@ Brukes ikke til å registrere utsagn om uønskede reaksjoner, allergier eller in
 Brukes ikke til å registrere et eksplisitt fravær (eller negativ tilstedeværelse) av et problem eller en diagnose, f.eks. \"ingen kjente problemer eller diagnoser\" eller \"ingen kjent diabetes\". Bruk EVALUATION.exclusion-problem_diagnosis for å uttrykke fravær av et problem eller en diagnose.
 
 Brukes ikke til å registrere pasientens tilgjengelige ressurser for egenomsorg - bruk egne EVALUATION-arketyper for dette formålet.">
+			copyright = <"© openEHR Foundation">
 		>
 		["es-ar"] = <
 			language = <[ISO_639-1::es-ar]>
 			purpose = <"Para el registro de detalles acerca de un único problema de salud o diagnóstico.
 El alcance previsto del problema de salud se mantiene deliberadamente poco definido en el contexto de la documentación clínica, de modo tal que pueda representarse cualquier problema, real o percibido, que pueda afectar al bienestar de un individuo en cualquier grado. Un problema de salud puede ser identificado por un individuo, un cuidador, o un profesional de la salud. Para la definición de un diagnóstico se require además de criterios clínicos objetivos, habitualmente determinados por un profesional de la salud.">
-			keywords = <"asunto","condición","problema","diagnóstico","preocupación","lesión","impresión clínica">
-			copyright = <"© openEHR Foundation">
 			use = <"Utilícese para registrar detalles acerca de un único problema de salud o diagnóstico.
 
 Una definición clara que permita diferenciar un \"problema\" de un \"diagnóstico\" es casi imposible en la práctica - no podemos determinar en forma confiable cuando un problema debería ser considerado un diagnóstico. Cuando se cumplen con éxito determinados criterios diagnósticos o de clasificación es posible denominar una condición como un diagnóstico formal, pero previo al cumplimiento de dichos criterios y en tanto exista evidencia clínica que lo sustente, también puede ser válido el uso del término \"diagnóstico\". La cantidad de evidencia de apoyo varía de caso en caso. Muchos comités de estándares han lidiado con este problema por años sin lograr una resolución clara.
@@ -592,6 +588,7 @@ Este arquetipo será utilizado como un componente del Registro Médico Orientado
 
 En algunas situaciones puede asumirse que la identificación de un diagnóstico solo se ajusta a la experticia del médico, pero no es el propósito de este arquetipo. Los diagnósticos pueden ser registrados mediante este arquetipo por parte de cualquier profesional.
 ">
+			keywords = <"asunto", "condición", "problema", "diagnóstico", "preocupación", "lesión", "impresión clínica">
 			misuse = <"No debe ser utilizado para registrar síntomas tal cual fueron descriptos por el individuo; para ello se debe utilizar el arquetipo CLUSTER.symptom, habitualmente dentro del contexto del arquetipo OBSERVATION.story.
 
 No debe ser utilizado para registrar hallazgo de exámenes, para ello se debe utilizar la familia de arquetipos relacionados a exámenes, habitualmente contenidos dentro del arquetipo OBSERVATION.exam.
@@ -614,13 +611,13 @@ No debe ser utilizado para registrar aseveraciones acerca de reacciones adversas
 
 
 No debe ser utilizado para registrar la ausencia explícita (o presencia negativa) de un problema o diagnóstico (como por ejemplo \"sin diagnósticos o problemas conocidos\" o \"sin diabetes conocida\"); para expresar una aseveración positiva acerca de la exclusión de un problema o diagnóstico se debe utilizar el arquetipo EVALUATION.exclusion-problem_diagnosis.">
+			copyright = <"© openEHR Foundation">
 		>
 		["nl"] = <
 			language = <[ISO_639-1::nl]>
 			purpose = <"*For recording details about a single, identified health problem or diagnosis. 
 
 The intended scope of a health problem is deliberately kept loose in the context of clinical documentation, so as to capture any real or perceived concerns that may adversely affect an individual's wellbeing to any degree. A health problem may be identified by the individual, a carer or a healthcare professional. However, a diagnosis is additionally defined based on objective clinical criteria, and usually determined only by a healthcare professional.(en)">
-			keywords = <"*issue(en)","*condition(en)","*problem(en)","*diagnosis(en)","*concern(en)","*injury(en)","*clinical impression(en)">
 			use = <"*Use for recording details about a single, identified health problem or diagnosis. 
 
 Clear definitions that enable differentiation between a 'problem' and a 'diagnosis' are almost impossible in practice - we cannot reliably tell when a problem should be regarded as a diagnosis. When diagnostic or classification criteria are successfully met, then we can confidently call the condition a formal diagnosis, but prior to these conditions being met and while there is supportive evidence available, it can also be valid to use the term 'diagnosis'. The amount of supportive evidence required for the label of diagnosis is not easy to define and in reality probably varies from condition to condition. Many standards committees have grappled with this definitional conundrum for years without clear resolution.
@@ -634,6 +631,7 @@ In practice, clinicians use many context-specific qualifiers such as past/presen
 This archetype will be used as a component within the Problem Oriented Medical Record as described by Larry Weed. Additional archetypes, representing clinical concepts such as condition as an overarching organiser for diagnoses etc, will need to be developed to support this approach.
 
 In some situations, it may be assumed that identification of a diagnosis fits only within the expertise of physicians, but this is not the intent for this archetype. Diagnoses can be recorded using this archetype by any healthcare professional.(en)">
+			keywords = <"*issue(en)", "*condition(en)", "*problem(en)", "*diagnosis(en)", "*concern(en)", "*injury(en)", "*clinical impression(en)">
 			misuse = <"*Not to be used to record symptoms as described by the individual - use the CLUSTER.symptom archetype, usually within the OBSERVATION.story archetype.
 
 Not to be used to record examination findings - use the family of examination-related CLUSTER archetypes, usually nested within the OBSERVATION.exam archetype.
@@ -663,7 +661,6 @@ Not to be used for the explicit recording of an absence (or negative presence) o
 En el context d’una documentació clínica, l’envergadura d’un problema relacionat amb la salut té deliberadament pocs detalls, amb el fi de captar qualsevol preocupació real o percebuda que pugui afectar negativament a la salut de la persona en qualsevol grau. Un problema de salut pot ser identificat per la persona, per un cuidador o per un professional sanitari. No obstant això, un diagnòstic es defineix addicionalment basat en criteris clínics objectius, i determinat, en general, només per un professional sanitari.
 
 ">
-			keywords = <"Malaltia","condició","problema","diagnòstic","preocupació","lesió","impressió clínica">
 			use = <"Registrar dades sobre un únic problema de salut o diagnòstic identificat. 
 
 Les definicions evidents que permeten la diferenciació entre un «problema» i un «diagnòstic» són quasi impossibles en la pràctica: no podem, d’una manera fiable, constatar quan un problema de salut s’ha de considerar un diagnòstic. Quan un criteri de diagnòstic o de classificació es compleixen, podem constatar amb confiança l’afecció com a diagnòstic formal, però abans que aquestes condicions es compleixin i mentre que existí una evidència, també pot ser vàlid utilitzar el terme «diagnòstic». La quantitat d’evidències d’ajuda necessàries per a l’etiqueta de diagnòstic no és fàcil de definir i, en realitat, probablement variarà segons una malaltia o altra. Molts comitès de normalització han intentat solucionar aquest problema semàntic durant molts anys i no han trobat una resposta. 
@@ -678,6 +675,7 @@ Aquest arquetip s’utilitzarà com un component sense el qual l’història cl�
 
 En algunes situacions, es pot pressuposar que la identificació d’un diagnòstic sols és competència dels metges, però aquesta no és la intenció d’aquest arquetip. Qualsevol professional sanitari pot registrar diagnòstics utilitzant aquest arquetip.
 ">
+			keywords = <"Malaltia", "condició", "problema", "diagnòstic", "preocupació", "lesió", "impressió clínica">
 			misuse = <"No utilitzar per a registrar els símptomes descrits per la persona. Utilitzar l’arquetip CLUSTER.symptom, normalment dins de l’arquetip OBSERVATION.story. 
 
 No utilitzar per a registrar els resultats dels exàmens. Utilitzar la família d’arquetips d’examinació CLUSTER, normalment trobats dins de l’arquetip OBSERVATION.exam. 
@@ -703,6 +701,8 @@ EVALUATION.adverse_reaction.
 No utilitzar per registrar explícitament l’absència o (presència negativa) d’un problema o diagnòstic, per exemple, «Cap diabetis coneguda». Utilitzar l’arquetip EVALUATION.exclusion-problem_diagnosis per expressar una declaració positiva sobre l'exclusió d’un problema o diagnòstic.">
 		>
 	>
+	lifecycle_state = <"published">
+	other_contributors = <"Grethe Almenning, Bergen kommune, Norway", "Tomas Alme, DIPS, Norway", "Nadim Anani, Karolinska Institutet, Sweden", "Erling Are Hole, Helse Bergen, Norway", "Vebjørn Arntzen, Oslo universitetssykehus HF, Norway (Nasjonal IKT redaktør)", "Koray Atalag, GALATA-Digital, New Zealand", "Silje Ljosland Bakke, Helse Vest IKT AS, Norway (openEHR Editor)", "John Bennett, NEHTA, Australia", "Steve Bentley, Allscripts, United Kingdom", "Lars Bitsch-Larsen, Haukeland University hospital, Norway", "Terje Bless, Helse Nord FIKS, Norway", "Fredrik Borchsenius, Oslo universitetssykehus, Norway", "Ian Bull, ACT Health, Australia", "Sergio Carmona, Chile", "Rong Chen, Cambio Healthcare Systems, Sweden", "Stephen Chu, Queensland Health, Australia", "Ed Conley, Cardiff University, United Kingdom", "Matthew Cordell, NEHTA, Australia", "Inderjit Daphu, Helse Bergen, Norway", "Paul Donaldson, Nursing Informatics Australia, Australia", "Gail Easterbrook, Flinders Medical Centre, Australia", "Aitor Eguzkitza, UPNA (Public University of Navarre) - CHN (Complejo Hospitalario de Navarra), Spain", "Tone Engen, Norway", "David Evans, Queensland Health, Australia", "Arild Faxvaag, NTNU, Norway", "Shahla Foozonkhah, Iran ministry of health and education, Iran", "Einar Fosse, National Centre for Integrated Care and Telemedicine, Norway", "Peter Garcia-Webb, Australia", "Sebastian Garde, Ocean Informatics, Germany", "Bente Gjelsvik, Helse Bergen, Norway", "Andrew Goodchild, NEHTA, Australia", "Anneke Goossen, Results 4 Care, Netherlands", "Gyri Gradek, Senter for medisinsk genetikk og molekylærmedisin, Haukeland Universitetssykehus, Norway", "Heather Grain, Llewelyn Grain Informatics, Australia", "Trina Gregory, cpc, Australia", "Bjørn Grøva, Diretoratet for e-helse, Norway", "Dag Hanoa, Oslo universitetssykehus, Norway", "Knut Harboe, Stavanger Universitetssjukehus, Norway", "Sam Heard, Ocean Informatics, Australia", "Ingrid Heitmann, Oslo universitetssykehus HF, Norway", "Kristian Heldal, Telemark Hospital Trust, Norway", "Andreas Hering, Helse Bergen HF, Haukeland universitetssjukehus, Norway", "Anca Heyd, DIPS ASA, Norway", "Hilde Hollås, DIPS AS, Norway", "Evelyn Hovenga, EJSH Consulting, Australia", "Eugene Igras, IRIS Systems, Inc., Canada", "Lars Ivar Mehlum, Helse Bergen HF, Norway", "Tom Jarl Jakobsen, Helse Bergen, Norway", "Aud Jorunn Mjelstad, Helse Bergen, Norway", "Gunnar Jårvik, Nasjonal IKT HF, Norway", "Lars Morgan Karlsen, DIPS ASA, Norway", "Mary Kelaher, NEHTA, Australia", "Eizen Kimura, Ehime Univ., Japan", "Shinji Kobayashi, NPO openEHR Japan, Japan", "Robert L'egan, NEHTA, Australia", "Sabine Leh, Haukeland University Hospital, Department of Pathology, Norway", "Heather Leslie, Atomica Informatics, Australia (openEHR Editor)", "Hugh Leslie, Ocean Informatics, Australia (Editor)", "Hallvard Lærum, Norwegian Directorate of e-health, Norway", "Luis Marco Ruiz, NST, Spain", "Siv Marie Lien, DIPS ASA, Norway", "Rohan Martin, Ambulance Victoria, Australia", "David McKillop, NEHTA, Australia", "Ian McNicoll, freshEHR Clinical Informatics, United Kingdom", "Chris Mitchell, RACGP, Australia", "Stewart Morrison, NEHTA, Australia", "Jörg Niggemann, compugroup, Germany", "Bjørn Næss, DIPS AS, Norway", "Mona Oppedal, Helse Bergen, Norway", "Andrej Orel, Marand d.o.o., Slovenia", "Anne Pauline Anderssen, Helse Nord RHF, Norway", "Chris Pearce, Melbourne East GP Network, Australia", "Camilla Preeston, Royal Australian College of General Practitioners, Australia", "Margaret Prichard, NEHTA, Australia", "Jodie Pycroft, Adelaide Northern Division of General Practice Ltd, Australia", "Cathy Richardson, NEHTA, Australia", "Robyn Richards, NEHTA - Clinical Terminology, Australia", "Jussara Rotzsch, Hospital Alemão Oswaldo Cruz, Brazil", "Thomas Schopf, University Hospital of North-Norway, Norway", "Thilo Schuler, Australia", "Anoop Shah, University College London, United Kingdom", "Arild Stangeland, Helse Bergen, Norway", "Line Sæle, Nasjonal IKT HF, Norway", "Line Sørensen, Helse Bergen, Norway", "Gordon Tomes, Australian Institute of Health and Welfare, Australia", "Richard Townley-O'Neill, NEHTA, Australia", "Donna Truran, ACCTI-UoW, Australia", "Jon Tysdahl, Furst medlab AS, Norway", "John Tore Valand, Helse Vest IKT, Norway (openEHR Editor)", "Kylie Young, The Royal Australian College of General Practitioners, Australia">
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
@@ -717,9 +717,9 @@ Weed LL. Medical records that guide and teach. N Engl J Med. 1968 Mar 14;278(11)
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"36AB7D4555C1BE62F46628C1AF3E79A3">
-		["build_uid"] = <"ab780f01-5daf-4969-a5af-69a248211906">
-		["revision"] = <"1.5.1-alpha">
+		["MD5-CAM-1.0.1"] = <"23814F45898EDABAB347AF0E329C95B5">
+		["build_uid"] = <"07f9e756-0ea4-4d12-a622-0bed8a4438fe">
+		["revision"] = <"1.7.1">
 	>
 
 definition
@@ -784,11 +784,6 @@ definition
 							DV_TEXT matches {*}
 						}
 					}
-					ELEMENT[at0081] occurrences matches {0..1} matches {    -- Category
-						value matches {
-							DV_TEXT matches {*}
-						}
-					}
 					allow_archetype CLUSTER[at0043] occurrences matches {0..*} matches {    -- Specific details
 						include
 							archetype_id/value matches {/.*/}
@@ -844,6 +839,7 @@ definition
 			}
 		}
 	}
+
 
 ontology
 	term_definitions = <
@@ -974,16 +970,11 @@ Si la ubicación anatómica se incluye en el nombre del problema/diagnóstico me
 				["at0080"] = <
 					text = <"Impacto">
 					description = <"Evaluación global del impacto o relevancia de un problema de salud para un paciente concreto.">
-					comment = <"El mismo diagnóstico, con la misma gravedad, puede tener un impacto diferente en cada paciente. Este factor de relevancia implica ajustar el impacto general de ese problema de salud según las características del paciente.
+					comment = <"El mismo diagnóstico, con la misma gravedad, tiene un impacto diferente en cada paciente. Este factor de relevancia implica ajustar el impacto general de ese problema de salud según las características del paciente.
 Por ejemplo: Dos pacientes tienen el mismo diagnóstico: quemadura de primer grado.
 Uno es una persona sana; el otro, un paciente diabético.
 El impacto de ese problema en un paciente diabético es MAYOR (mayor riesgo de infección, mayor tiempo de recuperación).
 Este elemento está destinado a permitir múltiples tipos de impacto, incluidos pero no limitado a: tratamiento clínico, funcionamiento en el hogar o vida laboral.">
-				>
-				["at0081"] = <
-					text = <"Categoria">
-					description = <"Una agrupación general para el problema o diagnóstico identificado en 'Nombre del problema/diagnóstico'.">
-					comment = <"Por ejemplo, «Enfermedad neoplásica», «Cardiopatía isquémica» o «Trastorno de ansiedad». Se prefiere codificar con una terminología externa, siempre que sea posible.">
 				>
 			>
 		>
@@ -1114,17 +1105,12 @@ Si la localización anatómica está incluida en el nombre del problema o diagn�
 					text = <"*DV_TEXT (en)">
 					description = <"">
 				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
-				>
 			>
 		>
 		["de"] = <
 			items = <
 				["at0000"] = <
-					text = <"Problem/Diagnose">
+					text = <"Diagnose/Symptom">
 					description = <"Angaben über einen einzelnen identifizierten Gesundheitszustand, eine Verletzung, eine Behinderung oder ein Problem, welches das körperliche, geistige und/oder soziale Wohlergehen einer Einzelperson beeinträchtigt.">
 					comment = <"Eine klare Abgrenzung zwischen Problem und Diagnose ist in der Praxis nicht einfach zu erreichen. Für die Zwecke der klinischen Dokumentation mit diesem Archetyp werden Problem und Diagnose als ein Kontinuum betrachtet, mit zunehmendem Detaillierungsgrad und unterstützenden Beweisen, die in der Regel dem Etikett \"Diagnose\" Gewicht verleihen.">
 				>
@@ -1133,8 +1119,8 @@ Si la localización anatómica está incluida en el nombre del problema o diagn�
 					description = <"@ internal @">
 				>
 				["at0002"] = <
-					text = <"Name des Problems/ der Diagnose">
-					description = <"Namentliche Identifikation des Problems oder der Diagnose.">
+					text = <"Diagnose-/Symptombezeichnung">
+					description = <"Namentliche Bezeichnung des Symptoms (\"medical Problem\") oder der Diagnose.">
 					comment = <"Wo möglich, ist die Kodierung des Problems oder der Diagnose über eine Terminologie zu bevorzugen.">
 				>
 				["at0003"] = <
@@ -1167,9 +1153,9 @@ Si la localización anatómica está incluida en el nombre del problema o diagn�
 					description = <"@ internal @">
 				>
 				["at0039"] = <
-					text = <"Anatomische Stelle (strukturiert)">
-					description = <"Eine strukturierte anatomische Lokalisation des Problems oder der Diagnose.">
-					comment = <"Verwenden Sie diesen SLOT, um die Archetypen CLUSTER.anatomical_location oder CLUSTER.relative_location einzufügen, wenn die Anforderungen für die Aufnahme der anatomischen Position zur Laufzeit der Anwendung bestimmt werden oder komplexere Modellierungen wie z.B. relative Positionen erforderlich sind. Ist die anatomische Lokalisation über präkoordinierte Codes im Namen des Problems/Diagnose enthalten, wird die Verwendung dieses SLOT überflüssig.">
+					text = <"Strukturierte Körperstelle">
+					description = <"Eine strukturierte anatomische Beschreibung der Körperstelle, an der das Problem oder die Diagnose auftreten.">
+					comment = <"Verwenden Sie diesen SLOT, um die Archetypen CLUSTER.anatomical_location oder CLUSTER.relative_location einzufügen, wenn die Anforderungen für die Aufnahme der anatomischen Position zur Laufzeit der Anwendung bestimmt werden oder komplexere Modellierungen wie z.B. relative Positionen erforderlich sind. Ist die anatomische Körperstelle über präkoordinierte Codes im Namen des Problems/Diagnose enthalten, wird die Verwendung dieses SLOT überflüssig.">
 				>
 				["at0043"] = <
 					text = <"Spezifische Angaben">
@@ -1228,28 +1214,28 @@ Si la localización anatómica está incluida en el nombre del problema o diagn�
 					description = <"Die Diagnose wurde anhand anerkannter Kriterien bestätigt.">
 				>
 				["at0077"] = <
-					text = <"Datum/ Zeitpunkt des Auftretens/ der Erstdiagnose">
+					text = <"Datum des erstmaligen Auftretens">
 					description = <"Geschätzte oder exakte Zeit (bzw. Datum), zu der die Krankheitsanzeichen oder Symptome zum ersten mal beobachtet wurden.">
 					comment = <"Datumswerte, die als \"Alter zu Beginn\" erfasst/importiert werden, sollten anhand des Geburtsdatums der Person in ein Datum umgewandelt werden.">
 				>
 				["at0078"] = <
-					text = <"Ursache">
+					text = <"Ätiologie">
 					description = <"Die Ursache, eine Reihe von Ursachen oder eine Art und Weise der Verursachung des Problems oder der Diagnose.">
-					comment = <"Auch bekannt als „Ätiologie“. Die Codierung mit einer externen Terminologie wird nach Möglichkeit bevorzugt.">
+					comment = <"Die Codierung mit einer externen Terminologie wird nach Möglichkeit bevorzugt.">
 				>
 				["at0079"] = <
-					text = <"Variante">
+					text = <"Subtyp">
 					description = <"Spezifische Variante oder Subtyp der Diagnose, falls relevant.">
 					comment = <"Zum Beispiel: „Akute motorische axonale Neuropathie“ als Variante des Guillain-Barre-Syndroms. Wo möglich, ist die Kodierung des Namens der Variante über eine Terminologie zu bevorzugen.">
 				>
 				["at0080"] = <
-					text = <"*DV_TEXT (en)">
-					description = <"">
-				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
+					text = <"Auswirkungen">
+					description = <"Gesamtbeurteilung der Auswirkungen der Diagnose/des Symptoms auf den Patienten.">
+					comment = <"Dieselbe Diagnose mit demselben Schweregrad kann sich bei jedem Patienten unterschiedlich auswirken. Dieser Relevanzfaktor bedeutet, dass die Gesamtbelastung durch dieses Gesundheitsproblem entsprechend den Merkmalen des Patienten angepasst werden muss.
+Beispiel: Zwei Patienten haben dieselbe Diagnose: Verbrennungen ersten Grades.
+Der eine ist gesund, der andere leidet an Diabetes.
+Die Belastung durch dieses Problem ist bei einem Diabetiker GRÖSSER (höheres Infektionsrisiko …, längere Heilungsdauer).
+Dieses Element soll verschiedene Arten von Auswirkungen berücksichtigen, darunter unter anderem: klinische Behandlung, Alltag zu Hause, Berufsleben.">
 				>
 			>
 		>
@@ -1376,21 +1362,16 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 				["at0079"] = <
 					text = <"Variant">
 					description = <"Specific variant or subtype of the Diagnosis, if relevant.">
-					comment = <"For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible. ">
+					comment = <"For example: 'acute motor axonal neuropathy' as a variant of Guillain-Barre Syndrome. Coding of the name of the variant with a terminology is preferred, where possible.">
 				>
 				["at0080"] = <
 					text = <"Impact">
-					description = <"Overall assessment of the impact of a health problem for the specific patient. ">
-					comment = <"The same diagnosis, with the same severity, can have a different impact on each patient. This relevance qualifier implies adjusting the overall impact of that health problem according to the patient's characteristics.
+					description = <"Overall assessment of the impact of a health problem for the specific patient.">
+					comment = <"The same diagnosis, with the same severity, has a different impact on each patient. This relevance qualifier implies adjusting the overall impact of that health problem according to the patient's characteristics.
 For example: Two patients have the same diagnosis. First-degree burn.
 One is a healthy person, the other is a diabetic patient.
 The impact for that problem in a diabetic patient is HIGHER (more risk of infection..., longuer time healing).
 This element is meant to allow for multiple types of impact, including but not limited to: clinical treatment, home functioning, work life.">
-				>
-				["at0081"] = <
-					text = <"Category">
-					description = <"An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'.">
-					comment = <"For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible.">
 				>
 			>
 		>
@@ -1520,11 +1501,6 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 				["at0080"] = <
 					text = <"*DV_TEXT (en)">
 					description = <"">
-				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
 				>
 			>
 		>
@@ -1660,11 +1636,6 @@ Por exemplo: evolução do estado: inicial, inativo, resolvido, em remissão; es
 					text = <"*DV_TEXT (en)">
 					description = <"">
 				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
-				>
 			>
 		>
 		["nb"] = <
@@ -1767,7 +1738,7 @@ Dersom den anatomiske lokaliseringen inkluderes i feltet \"Problem/diagnosenavn\
 				>
 				["at0074"] = <
 					text = <"Mistenkt">
-					description = <"Diagnosen er identifisert med en lav grad av sikkerhet.">
+					description = <"Diagnoses er identifisert med en lav grad av sikkerhet.">
 				>
 				["at0075"] = <
 					text = <"Sannsynlig">
@@ -1795,13 +1766,7 @@ Dersom den anatomiske lokaliseringen inkluderes i feltet \"Problem/diagnosenavn\
 				["at0080"] = <
 					text = <"Innvirkning">
 					description = <"Overordnet vurdering av innvirkningen et helseproblem har for individet.">
-					comment = <"Den samme diagnosen, med samme alvorlighetsgrad, kan ha ulik innvirkning på ulike pasienter. Denne relevanskvalifikatoren innebærer å justere den totale påvirkningen av helseproblemet basert på pasientens individuelle medisinske og funksjonelle forutsetninger. 
-For eksempel: To pasienter har samme diagnose – en førstegradsforbrenning. Den ene er frisk, den andre har diabetes. Innvirkningen for en diabetiker er høyere (større risiko for infeksjon, lengre tilhelingstid osv.). Dette elementet er ment å åpne for registrering av flere typer påvirkning, for eksempel innen klinisk behandling, funksjonsevne i hjemmet eller arbeidsliv.">
-				>
-				["at0081"] = <
-					text = <"Kategori">
-					description = <"En overordnet gruppering for problemet eller diagnosen som er identifisert i  \"Problem-/diagnosenavn\".">
-					comment = <"For eksempel «Neoplastisk sykdom», «Iskemisk hjertesykdom» eller «Angstlidelse». Koding med en ekstern terminologi er foretrukket der det er mulig.">
+					comment = <"Den samme diagnosen, med samme alvorlighetsgrad, kan ha ulik innvirkning på ulike pasienter. Denne relevanskvalifikatoren innebærer å justere den totale påvirkningen av helseproblemet basert på pasientens individuelle medisinske og funksjonelle forutsetninger. For eksempel: To pasienter har samme diagnose – en førstegradsforbrenning. Den ene er frisk, den andre har diabetes. Innvirkningen for en diabetiker er høyere (større risiko for infeksjon, lengre tilhelingstid osv.). Dette elementet er ment å åpne for registrering av flere typer påvirkning, for eksempel innen klinisk behandling, funksjonsevne i hjemmet eller arbeidsliv.">
 				>
 			>
 		>
@@ -1837,11 +1802,11 @@ For eksempel: To pasienter har samme diagnose – en førstegradsforbrenning. De
 					comment = <"Används för att ge en bakgrund och sammanhang, inklusive utveckling, episoder, framsteg och andra relevanta detaljer om problemet eller diagnosen.">
 				>
 				["at0012"] = <
-					text = <"Anatomisk plats">
+					text = <"Anatomisk position">
 					description = <"Identifiering av problemets eller diagnosens anatomiska plats.">
-					comment = <"Om möjligt, koda den anatomiska platsens namn med en terminologi. Använd det här fältet för att dokumentera prekoordinerade anatomiska platser. 
+					comment = <"Om möjligt, koda den anatomiska platsens namn med en terminologi. Använd det här fältet för att dokumentera prekoordinerade anatomiska positioner. 
 
-Om kraven på dokumentation av den anatomiska platsen bestäms vid körning av applikationen eller kräver mer komplex modellering, till exempel relativa platser (exempelvis 3 cm ovanför vänster knä), använd CLUSTER.anatomical_location eller CLUSTER.relative_location i SLOT \"Strukturerad anatomisk plats\" i denna arketyp. Förekomster av detta dataelement är obegränsat för att möjliggöra kliniska scenarier som att beskriva utslag på flera platser, men där alla andra egenskaper är identiska. Om den anatomiska platsen ingår i \"Benämning på problem/diagnos\" genom prekoordinerade koder blir detta fält överflödigt.">
+Om kraven på dokumentation av den anatomiska positionen bestäms automatiskt av vissa IT-system eller kräver mer komplex modellering, till exempel relativa platser (exempelvis 3 cm ovanför vänster knä), använd CLUSTER.anatomical_location eller CLUSTER.relative_location i SLOT för \"Strukturerad anatomisk plats\" i denna arketyp. Förekomster av detta datafält är obegränsat för att möjliggöra kliniska scenarier som att beskriva utslag på flera platser, men där alla andra egenskaper är identiska. Om den anatomiska platsen ingår i \"Benämning på problem/diagnos\" genom prekoordinerade koder blir detta fält överflödigt.">
 				>
 				["at0030"] = <
 					text = <"Datum och tid för tillfrisknande">
@@ -1853,9 +1818,9 @@ Om kraven på dokumentation av den anatomiska platsen bestäms vid körning av a
 					description = <"@ internal @">
 				>
 				["at0039"] = <
-					text = <"Strukturerad anatomisk plats">
+					text = <"Strukturerad anatomisk position">
 					description = <"En strukturerad anatomisk plats för problemet eller diagnosen.">
-					comment = <"Använd denna SLOT för att infoga CLUSTER.anatomical_location- eller CLUSTER.relative_location-arketyper om den anatomiska platsen bestäms automatiskt av applikationen eller kräver mer komplicerad modellering, som exempelvis relativa platser. Det här fältet är överflödigt om den anatomiska platsen är inkluderad i benämningen av problemet eller diagnosen med prekoordinerade koder.">
+					comment = <"Använd denna SLOT för att infoga CLUSTER.anatomical_location- eller CLUSTER.relative_location-arketyper om den anatomiska positionen bestäms automatiskt av vissa IT-system eller kräver mer komplicerad modellering, som exempelvis relativa platser. Det här fältet är överflödigt om den anatomiska platsen är inkluderad i benämningen av problemet eller diagnosen med prekoordinerade koder.">
 				>
 				["at0043"] = <
 					text = <"Specifika detaljer">
@@ -1865,7 +1830,8 @@ Om kraven på dokumentation av den anatomiska platsen bestäms vid körning av a
 				["at0046"] = <
 					text = <"Status">
 					description = <"Strukturerade specifika detaljer om den diagnostiska processen såsom plats, område, episod eller arbetsflöde.">
-					comment = <"Använd fältet med försiktighet eftersom användningen varierar i praktiken och kan inte garanteras om inte användningen är tydligt definierad. Exempelvis status på:
+					comment = <"Använd datafältet med försiktighet, eftersom användningen varierar i praktiken och interoperabilitet endast kan säkerställas om användningen är tydligt definierad. 
+Exempelvis status på:
 - Aktivitet, såsom aktiv, inaktiv, tillfrisknad, i remission
 - Förlopp, såsom initial, interimistisk, preliminär, slutlig
 - Tid, såsom nuvarande, tidigare
@@ -1937,13 +1903,13 @@ Om kraven på dokumentation av den anatomiska platsen bestäms vid körning av a
 					comment = <"Exempelvis \"akut motorisk axonal neuropati\" som en specificering av Guillain-Barre-syndromet. Om möjligt, koda specificeringen med en terminologi.">
 				>
 				["at0080"] = <
-					text = <"*DV_TEXT (en)">
-					description = <"">
-				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
+					text = <"*Impact(en)">
+					description = <"*Overall assessment of the impact of a health problem for the specific patient. (en)">
+					comment = <"*The same diagnosis, with the same severity, has a different impact on each patient. This relevance qualifier implies adjusting the overall impact of that health problem according to the patient's characteristics.
+For example: Two patients have the same diagnosis. First-degree burn.
+One is a healthy person, the other is a diabetic patient.
+The impact for that problem in a diabetic patient is HIGHER (more risk of infection..., longuer time healing).
+This element is meant to allow for multiple types of impact, including but not limited to: clinical treatment, home functioning, work life.(en)">
 				>
 			>
 		>
@@ -2075,11 +2041,6 @@ Om kraven på dokumentation av den anatomiska platsen bestäms vid körning av a
 					text = <"*DV_TEXT (en)">
 					description = <"">
 				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
-				>
 			>
 		>
 		["fi"] = <
@@ -2210,11 +2171,6 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 					text = <"*DV_TEXT (en)">
 					description = <"">
 				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
-				>
 			>
 		>
 		["it"] = <
@@ -2341,11 +2297,6 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 				["at0080"] = <
 					text = <"*DV_TEXT (en)">
 					description = <"">
-				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
 				>
 			>
 		>
@@ -2478,11 +2429,6 @@ Use this data element to record precoordinated anatomical locations. If the requ
 					text = <"*DV_TEXT (en)">
 					description = <"">
 				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
-				>
 			>
 		>
 		["zh"] = <
@@ -2611,11 +2557,6 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 				["at0080"] = <
 					text = <"*DV_TEXT (en)">
 					description = <"">
-				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
 				>
 			>
 		>
@@ -2746,16 +2687,11 @@ Si la localització anatòmica s’inclou en el problema/diagnòstic via codis p
 				["at0080"] = <
 					text = <"Impacte">
 					description = <"Avaluació global de l'impacte o rellevància d'un problema de salut per a un pacient concret.">
-					comment = <"El mateix diagnòstic, amb la mateixa gravetat, pot tenir un impacte diferent en cada pacient. Aquest qualificador de rellevància implica ajustar l'impacte global d'aquest problema de salut segons les característiques del pacient.
+					comment = <"El mateix diagnòstic, amb la mateixa gravetat, té un impacte diferent en cada pacient. Aquest qualificador de rellevància implica ajustar l'impacte global d'aquest problema de salut segons les característiques del pacient.
 Per exemple: Dos pacients tenen el mateix diagnòstic. Cremada de primer grau.
 Un és una persona sana, l'altre és un pacient diabètic.
 L'impacte d'aquest problema en un pacient diabètic és MÉS ALT (més risc d'infecció..., més temps de curació).
 Aquest element està pensat per permetre múltiples tipus d'impacte, incloent-hi, entre d'altres: tractament clínic, funcionament a casa, activitats de vida diària o vida laboral.">
-				>
-				["at0081"] = <
-					text = <"Categoria">
-					description = <"Una agrupació general per al problema o diagnòstic identificat a 'Nom del problema/diagnòstic'">
-					comment = <"Per exemple, «Malaltia neoplàstica», «Cardiopatia isquèmica» o «Trastorn d'ansietat». Es prefereix la codificació amb una terminologia externa, sempre que sigui possible.">
 				>
 			>
 		>
@@ -2887,11 +2823,6 @@ Aquest element està pensat per permetre múltiples tipus d'impacte, incloent-hi
 				["at0080"] = <
 					text = <"*DV_TEXT (en)">
 					description = <"">
-				>
-				["at0081"] = <
-					text = <"*Category (en)">
-					description = <"*An overarching grouping for the problem or diagnosis identified in 'Problem/Diagnosis name'. (en)">
-					comment = <"*For example 'Neoplastic disease', 'Ischemic heart disease' or ‘Anxiety disorder’. Coding with an external terminology is preferred, where possible. (en)">
 				>
 			>
 		>
