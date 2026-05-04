@@ -1,4 +1,4 @@
-archetype (adl_version=1.4; uid=8ec2d367-1d40-4e57-bf8b-4dde81132a64)
+archetype (adl_version=1.4; uid=b17c7f5f-2f3a-4202-ada4-0d13522bfa84)
 	openEHR-EHR-OBSERVATION.exam.v1
 
 concept
@@ -262,9 +262,9 @@ No s'ha de fer servir per registrar observacions independents i signes; per a ai
 		["original_namespace"] = <"no.nasjonalikt">
 		["original_publisher"] = <"Nasjonal IKT">
 		["custodian_namespace"] = <"no.nasjonalikt">
-		["MD5-CAM-1.0.1"] = <"61D18256DA550BBFD431F41EF7307BE0">
-		["build_uid"] = <"b51fe23f-5f6f-404a-8255-d5fbe8c3e9a5">
-		["revision"] = <"1.1.5">
+		["MD5-CAM-1.0.1"] = <"37BAF292F297B9A6F46D86B8931811C0">
+		["build_uid"] = <"8f979b4f-384d-468b-a434-9f76df062f27">
+		["revision"] = <"1.1.2">
 	>
 
 definition
